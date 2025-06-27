@@ -1,0 +1,35 @@
+# Ignore build folders
+/target/
+out/
+
+# Ignore IDE-specific files
+*.iml
+.classpath
+.project
+.settings/
+.idea/
+
+# Logs
+/logs/
+
+# Screenshots
+/screenshots/
+
+# Extent Reports
+/reports/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test Data Backup
+*.tmp
+*.bak
+
+# Ignore Excel temp files
+~$*.xlsx
+
+# Maven wrapper files (optional)
+.mvn/
+mvnw
+mvnw.cmd

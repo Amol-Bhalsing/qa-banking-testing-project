@@ -1,0 +1,42 @@
+2025-06-26 13:19:17 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-06-26 13:19:17 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-06-26 13:19:17 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-06-26 13:19:28 INFO  DataDrivenLoginTest:18 - 🔑 Attempting login with: john / demo
+2025-06-26 13:19:28 DEBUG DataDrivenLoginTest:23 - Entered username: john
+2025-06-26 13:19:28 DEBUG DataDrivenLoginTest:26 - Entered password: demo
+2025-06-26 13:19:29 INFO  DataDrivenLoginTest:29 - Clicked login button
+2025-06-26 13:19:29 INFO  DataDrivenLoginTest:33 - ✅ Login successful for valid credentials
+2025-06-26 13:19:29 INFO  DataDrivenLoginTest:50 - ✅ Test finished for user: john
+2025-06-26 13:19:35 INFO  DataDrivenLoginTest:18 - 🔑 Attempting login with: invalid / wrongpass
+2025-06-26 13:19:35 DEBUG DataDrivenLoginTest:23 - Entered username: invalid
+2025-06-26 13:19:36 DEBUG DataDrivenLoginTest:26 - Entered password: wrongpass
+2025-06-26 13:19:38 INFO  DataDrivenLoginTest:29 - Clicked login button
+2025-06-26 13:19:38 INFO  DataDrivenLoginTest:42 - ✅ Error displayed correctly for invalid credentials
+2025-06-26 13:19:38 INFO  DataDrivenLoginTest:50 - ✅ Test finished for user: invalid
+2025-06-26 13:19:41 INFO  DataDrivenLoginTest:18 - 🔑 Attempting login with:  / demo
+2025-06-26 13:19:44 DEBUG DataDrivenLoginTest:23 - Entered username: 
+2025-06-26 13:19:44 DEBUG DataDrivenLoginTest:26 - Entered password: demo
+2025-06-26 13:19:45 INFO  DataDrivenLoginTest:29 - Clicked login button
+2025-06-26 13:19:45 INFO  DataDrivenLoginTest:42 - ✅ Error displayed correctly for invalid credentials
+2025-06-26 13:19:45 INFO  DataDrivenLoginTest:50 - ✅ Test finished for user: 
+2025-06-26 17:41:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-06-26 17:41:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-06-26 17:41:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-06-26 17:41:12 INFO  DataDrivenLoginTest:18 - 🔑 Attempting login with: john / demo
+2025-06-26 17:41:12 DEBUG DataDrivenLoginTest:23 - Entered username: john
+2025-06-26 17:41:12 DEBUG DataDrivenLoginTest:26 - Entered password: demo
+2025-06-26 17:41:14 INFO  DataDrivenLoginTest:29 - Clicked login button
+2025-06-26 17:41:14 INFO  DataDrivenLoginTest:33 - ✅ Login successful for valid credentials
+2025-06-26 17:41:14 INFO  DataDrivenLoginTest:50 - ✅ Test finished for user: john
+2025-06-26 17:41:18 INFO  DataDrivenLoginTest:18 - 🔑 Attempting login with: invalid / wrongpass
+2025-06-26 17:41:21 DEBUG DataDrivenLoginTest:23 - Entered username: invalid
+2025-06-26 17:41:21 DEBUG DataDrivenLoginTest:26 - Entered password: wrongpass
+2025-06-26 17:41:23 INFO  DataDrivenLoginTest:29 - Clicked login button
+2025-06-26 17:41:23 INFO  DataDrivenLoginTest:42 - ✅ Error displayed correctly for invalid credentials
+2025-06-26 17:41:23 INFO  DataDrivenLoginTest:50 - ✅ Test finished for user: invalid
+2025-06-26 17:41:29 INFO  DataDrivenLoginTest:18 - 🔑 Attempting login with:  / demo
+2025-06-26 17:41:29 DEBUG DataDrivenLoginTest:23 - Entered username: 
+2025-06-26 17:41:29 DEBUG DataDrivenLoginTest:26 - Entered password: demo
+2025-06-26 17:41:31 INFO  DataDrivenLoginTest:29 - Clicked login button
+2025-06-26 17:41:31 INFO  DataDrivenLoginTest:42 - ✅ Error displayed correctly for invalid credentials
+2025-06-26 17:41:31 INFO  DataDrivenLoginTest:50 - ✅ Test finished for user: 
