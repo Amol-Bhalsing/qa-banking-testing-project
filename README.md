@@ -11,8 +11,7 @@ This repository contains both manual and automation testing artifacts for a samp
 qa-banking-testing-project/
 ├── manual/
 │   ├── TestPlan.docx
-│   ├── TestCases.xlsx
-│   ├── BugReport.xlsx
+│   ├── QA_Banking_Manual_Artifacts.xlsx # Scenarios, Test Cases, Bugs (3 sheets)
 │   └── TestSummary.docx
 │
 ├── automation/
@@ -55,10 +54,14 @@ qa-banking-testing-project/
 
 ## ✅ Manual Artifacts
 
-- **Test Plan** - Overview of testing strategy.
-- **Test Cases** - Excel sheet containing all functional test cases.
-- **Bug Report** - Summary of identified defects.
-- **Test Summary** - Final test summary document.
+- **Test Plan** – High-level testing strategy.
+- **QA_Banking_Manual_Artifacts.xlsx** – Contains:
+  - `Test_Scenarios` sheet
+  - `Test_Cases` sheet
+  - `Bug_Report` sheet
+- **Test Summary Report** – Final test result summary.
+
+📁 **All files located in**: `manual/`
 
 ---
 
