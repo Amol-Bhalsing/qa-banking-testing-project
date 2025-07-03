@@ -1,4 +1,3 @@
-
 # QA Banking Testing Project
 
 This repository contains both manual and automation testing artifacts for a sample online banking application.
@@ -11,35 +10,33 @@ This repository contains both manual and automation testing artifacts for a samp
 qa-banking-testing-project/
 ├── manual/
 │   ├── TestPlan.docx
-│   ├── QA_Banking_Manual_Artifacts.xlsx # Scenarios, Test Cases, Bugs (3 sheets)
+│   ├── QA_Banking_Manual_Artifacts.xlsx     # Contains: Scenarios, Test Cases, Bugs
 │   └── TestSummary.docx
 │
 ├── automation/
 │   ├── src/
 │   │   ├── main/
-│   │        └── java/
-│   │        │       └── utilities/
-│   │        │    	     ├── DataProviders.java
-│   │        │    	     ├── ExcelUtils.java
-│   │        │    	     ├── ExtentManager.java
-│   │        │    	     └── ScreenshotUtil.java
-│   │        │── resources/
+│   │   │   ├── java/
+│   │   │   │   └── utilities/
+│   │   │   │       ├── DataProviders.java
+│   │   │   │       ├── ExcelUtils.java
+│   │   │   │       ├── ExtentManager.java
+│   │   │   │       └── ScreenshotUtil.java
+│   │   │   └── resources/
 │   │   └── test/
-│   │       └── java/
-│   │             ├── pageObjects/
-│	│			  ├── testBase/
-│   │             └── testCases/
+│   │       ├── java/
+│   │       │   ├── pageObjects/
+│   │       │   ├── testBase/
+│   │       │   └── testCases/
 │   │       └── resources/
-│   │            └── testData/
-│   │            ├── log4j2.xml
-│   │            └── testng.xml
-│   │
+│   │           ├── testData/
+│   │           ├── log4j2.xml
+│   │           └── testng.xml
 │   ├── pom.xml
 │   ├── logs/
 │   ├── reports/
 │   │   └── index.html
 │   ├── screenshots/
-│
 │
 ├── jira/
 │   ├── BugScreenshot1.png
@@ -51,17 +48,16 @@ qa-banking-testing-project/
 
 ---
 
-
 ## ✅ Manual Artifacts
 
-- **Test Plan** – High-level testing strategy.
-- **QA_Banking_Manual_Artifacts.xlsx** – Contains:
-  - `Test_Scenarios` sheet
-  - `Test_Cases` sheet
-  - `Bug_Report` sheet
-- **Test Summary Report** – Final test result summary.
+📁 Located in the `manual/` folder:
 
-📁 **All files located in**: `manual/`
+- **Test Plan** – High-level testing strategy and scope
+- **QA_Banking_Manual_Artifacts.xlsx** – Contains 3 sheets:
+  - `Test_Scenarios`
+  - `Test_Cases`
+  - `Bug_Report`
+- **Test Summary Report** – Final test result summary after execution
 
 ---
 
@@ -69,37 +65,39 @@ qa-banking-testing-project/
 
 - **Language**: Java
 - **Build Tool**: Maven
-- **Framework**: TestNG
+- **Testing Framework**: TestNG
 - **Logging**: Log4j2
 - **Reporting**: ExtentReports
-- **Excel Utility**: Apache POI
+- **Excel Integration**: Apache POI
 
-### 📦 To Execute Tests
+### ✅ To Run Tests
 
 ```bash
 mvn clean test
 ```
 
 ### 📄 TestNG Suite File
+
 Located at: `automation/src/test/resources/testng.xml`
 
 ---
 
 ## 📌 Reports & Logs
 
-- **Extent Reports**: Generated in `/reports/index.html`
-- **Logs**: Stored in `/logs/` directory
+- **Extent Reports**: Auto-generated at `/reports/index.html`
+- **Logs**: Saved in `/logs/`
+- **Screenshots**: Captured on test failure in `/screenshots/`
 
-> Note: These folders are excluded from Git using `.gitignore`
+> ⚠️ These folders are excluded from Git using `.gitignore`
 
 ---
 
-## 🌐 Author
+## 🧠 Author
 
-- Created by Amol Bhalsing as part of QA learning program.
+**Amol Bhalsing** – Created as part of the QA learning program.
 
 ---
 
 ## 📄 License
 
-This project is for educational/demo purposes only.
+This project is for **educational/demo purposes only**. No commercial use intended.
